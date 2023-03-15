@@ -4,6 +4,8 @@ import deerCreek500 from '../../assets/deer_creek_500.webp';
 import deerCreek350 from '../../assets/deer_creek_350.webp';
 import baileySign500 from '../../assets/bailey_sign_500.webp';
 import baileySign350 from '../../assets/bailey_sign_350.webp';
+import hero940 from '../../assets/hero_940.webp';
+import mobileImage from '../../assets/mobile.webp';
 import { ContentBlock, Button, Countdown } from '../../components/index';
 import {
 	TitleContainer,
@@ -31,12 +33,12 @@ export default function Home({ visible }) {
 				</div>
 				<div className='image-section'>
 					<img
-						src='https://i.postimg.cc/PrJFXt4z/hero.png'
+						src={hero940}
 						alt=''
 						className='desktop'
 					/>
 					<img
-						src='https://i.postimg.cc/zvBpGjnX/mobile.png'
+						src={mobileImage}
 						alt=''
 						className='mobile'
 					/>
