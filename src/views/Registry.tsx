@@ -63,6 +63,7 @@ const SubTitle = styled.div`
 const SecondarySubTitle = styled.div`
 	font-family: 'Circular-Book';
 	font-size: 20px;
+	padding-top: 10px;
 `;
 
 const ItemContainer = styled.div`
@@ -187,18 +188,20 @@ export default function Registry() {
 			<Content>
 				<SubTitle>Zola.com</SubTitle>
 				<SecondarySubTitle>Our Official Registry</SecondarySubTitle>
-				<p>
+				<p style={{ padding: '0', margin: '5px 0px 20px 0px' }}>
 					We are so excited to have you join our special day, and your presence
 					at our wedding is the best gift we could ask for. However, if you feel
 					inclined to give us a wedding gift, please take a look at our registry
 					and the cash funds linked. After all these years together we have
 					accumulated too many things really and mostly are focused on saving
 					for a new home & a nice honeymoon ♡<br />
-					<br />
-					Also as you've probably read throughout the site, we are asking for
-					$30 dollars per bed reserved for lodging for the weekend, and for a $5
-					per person donation for Sunday's breakfast. You can make your payment
-					for these items (if applicable) through our registry site directly or
+				</p>
+				<SecondarySubTitle>Lodging Payments</SecondarySubTitle>
+				<p style={{ padding: '0', margin: '5px 0px 0px' }}>
+					As you've probably read throughout the site, we are asking for $30
+					dollars per bed reserved for lodging for the weekend, and for a $5 per
+					person donation for Sunday's breakfast. You can make your payment for
+					these items (if applicable) through our registry site directly, or
 					through the other listed platforms below.
 				</p>
 			</Content>
@@ -242,14 +245,14 @@ export default function Registry() {
 			<div style={{ padding: '1rem' }}>
 				<SubTitle>Other Options</SubTitle>
 				<SecondarySubTitle>Venmo, Cash, or Check</SecondarySubTitle>
-				<p>
+				<p style={{ padding: '0px', margin: '5px 0px 10px 0px' }}>
 					If you would like to avoid the $2 dollar Zola fee, but want to pay for
 					lodging/breakfast or provide a gift, you can also venmo us directly,
 					provide check or cash day of, or use whatever platform works best for
 					you.
 				</p>
 				<SecondarySubTitle>Venmo Info</SecondarySubTitle>
-				<p style={{ paddingBottom: 0, marginBottom: 0 }}>Username: Miwhag</p>
+				<p style={{ padding: '5px 0px 0px', margin: 0 }}>Username: Miwhag</p>
 				<p style={{ padding: 0, margin: 0 }}>
 					<span>View Link to Profile:</span>{' '}
 					<span>
