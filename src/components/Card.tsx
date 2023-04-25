@@ -100,7 +100,11 @@ export default function Card({
 		<CardStyles onClick={() => onClick()} disable={disable}>
 			<div>
 				<ImageContainer>
-					<TypeLabel color={color}>{type}</TypeLabel>
+					<TypeLabel
+						color={name === 'Lark' || name === 'Spruce' ? '#6871E4' : color}
+					>
+						{name === 'Lark' || name === 'Spruce' ? 'coed' : type}
+					</TypeLabel>
 					<Image image={image ? image : dummyImage} />
 				</ImageContainer>
 				<Title>
