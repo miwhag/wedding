@@ -170,8 +170,16 @@ export default function Popup({
 									})}
 								</Swiper>
 							</SliderContainer>
-							<TypeLabel color={content.color}>
-								{capitalizeFirstLetter(content.lodging_type)}
+							<TypeLabel
+								color={
+									content.name === 'Lark' || content.name === 'Spruce'
+										? '#6871E4'
+										: content.color
+								}
+							>
+								{content.name === 'Lark' || content.name === 'Spruce'
+									? 'Coed'
+									: capitalizeFirstLetter(content.lodging_type)}
 							</TypeLabel>
 						</ImageContainer>
 
