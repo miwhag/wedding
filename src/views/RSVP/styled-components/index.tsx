@@ -92,4 +92,7 @@ export const SubTitle = styled.div`
 	padding: 15px;
 	font-family: 'Circular-Light';
 	font-size: 17px;
+	&.expired {
+		text-align: center;
+	}
 `;
