@@ -80,7 +80,7 @@ export const Title = styled.div`
 	padding: 0;
 	@media only screen and (max-width: 600px) {
 		font-size: 30px;
-		margin-top: 0rem;
+		margin-top: 5rem;
 		&.coming-soon {
 			font-size: 20px;
 			margin-top: 4rem;
@@ -92,4 +92,8 @@ export const SubTitle = styled.div`
 	padding: 15px;
 	font-family: 'Circular-Light';
 	font-size: 17px;
+	&.expired {
+		text-align: center;
+		padding: 15px 0px;
+	}
 `;
