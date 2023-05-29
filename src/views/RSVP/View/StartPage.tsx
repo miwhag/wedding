@@ -94,7 +94,7 @@ export default function StartPage({ progressFlow }) {
 								<SubTitle className='expired'>
 									The deadline to RSVP has passed.
 									<br /> If you need to update anything about your RSVP, please
-									contact Mike & Miwha.
+									contact us asap!
 								</SubTitle>
 							)}
 						</Heading>
