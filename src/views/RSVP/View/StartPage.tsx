@@ -19,7 +19,7 @@ export default function StartPage({ progressFlow }) {
 	const [loaded, setLoaded] = useState(true);
 	const [guestList, setGuestList] = useState<any>([]);
 	const { setGuest } = useContext<any>(GuestContext);
-	const deadlinePassed = true;
+	const deadlinePassed = false;
 
 	useEffect(() => {
 		let controller = new AbortController();
@@ -114,8 +114,10 @@ export default function StartPage({ progressFlow }) {
 									<ErrorMessage>
 										Oh no! We’re having trouble finding your invite. Make sure
 										the spelling is correct and that your search includes your
-										first and last name. If the problem persists contact m+m at
-										mikemiwha@gmail.com
+										first and last name. You also may need to try a few times to
+										searh for your name. There is a known bug that might not
+										pull it up the first time. If the problem persists contact
+										m+m at mikemiwha@gmail.com and we can help you!
 									</ErrorMessage>
 								)}
 								<ButtonContainer>
